@@ -94,4 +94,4 @@ Users can filter by:
 5. Forecasting Readiness: Predictive insights help anticipate demand fluctuations for upcoming years.
 
 **6. Screenshot:**
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Energy%20Consumption%20%26%20Sustainability%20Dashboard.PNG)
