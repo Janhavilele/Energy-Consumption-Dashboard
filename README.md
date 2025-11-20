@@ -1,11 +1,13 @@
 # Energy-Consumption-Dashboard
-**1. Project Title :** Electricity Consumption & Sustainability Dashboard
+**1. Project Title :** _Electricity Consumption & Sustainability Dashboard_
 
 An interactive Power BI dashboard designed to analyze India’s electricity consumption trends, renewable energy share, carbon emissions, and forecast future demand using dynamic filters and DAX-powered KPIs.
+
 
 **2. Purpose :**
 
 The Energy Insights Dashboard provides a clear, visual understanding of monthly and yearly electricity consumption patterns across India. It helps identify renewable vs. non-renewable trends, carbon emissions, peak load months, and future consumption forecasts to support sustainable energy planning and decision-making.
+
 
 **3. Tech Stack:**
 
@@ -15,6 +17,7 @@ The dashboard was built using the following tools and technologies:
 - DAX (Data Analysis Expressions) – All KPIs, calculations & forecasting logic
 - Data Modeling – Relationships between Date, Variable, Units & Consumption measures
 - File Formats – .pbix for the report, .png for dashboard previews
+
 
 **4. Data Source:**
 
@@ -44,6 +47,7 @@ Value – Capacity value in MW
 YoY absolute change – Year-on-year absolute capacity change
 
 YoY % change – Year-on-year percentage change
+
 
 **5. Features:**
 
@@ -111,6 +115,7 @@ Users can filter by:
 3. Policy Support: Enables data-driven decisions on energy diversification and environmental impact.
 4. Operational Efficiency: Organizations can track monthly usage patterns and optimize energy usage.
 5. Forecasting Readiness: Predictive insights help anticipate demand fluctuations for upcoming years.
+
 
 **6. Screenshot:**
 
