@@ -153,21 +153,21 @@ Purpose: Micro-level evaluation of any Indian state or union territory.
 **6. Screenshot:**
 1. Executive Overview:
 
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Executive%20Overview.PNG)
 
 2. Geographic State Analysis:
 
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Geographics%20State%20Analysis.PNG)
 
 3. Renewable Energy Sector:
 
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Renewable%20Energy%20Tracker.PNG)
 
 4. Data Explorer:
 
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Comprehensive%20Data%20Explorer.PNG)
 
 5. State Details:
 
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/State%20Details.PNG)
 
