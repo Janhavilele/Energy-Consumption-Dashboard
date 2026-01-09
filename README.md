@@ -1,5 +1,5 @@
 # Energy-Consumption-Dashboard
-**1. Project Title :** _Electricity Consumption & Sustainability Dashboard
+**1. Project Title :** _Electricity Consumption & Sustainability Dashboard_
 
 The **Electricity Consumption & Sustainability Analytics Dashboard** is an advanced, multi-page Power BI solution designed to analyze India’s electricity ecosystem from 2019 to 2025. It delivers deep insights into **power generation, installed capacity, renewable energy transition, and carbon emissions** across Indian states and union territories.
 
@@ -151,23 +151,23 @@ Purpose: Micro-level evaluation of any Indian state or union territory.
 
 
 **6. Screenshot:**
-1. Executive Overview:
+**1. Executive Overview:**
 
 ![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Executive%20Overview.PNG)
 
-2. Geographic State Analysis:
+**2. Geographic State Analysis:**
 
 ![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Geographics%20State%20Analysis.PNG)
 
-3. Renewable Energy Sector:
+**3. Renewable Energy Sector:**
 
 ![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Renewable%20Energy%20Tracker.PNG)
 
-4. Data Explorer:
+**4. Data Explorer:**
 
 ![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Comprehensive%20Data%20Explorer.PNG)
 
-5. State Details:
+**5. State Details:**
 
 ![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/State%20Details.PNG)
 
