@@ -6,7 +6,6 @@ The **Electricity Consumption & Sustainability Analytics Dashboard** is an advan
 This dashboard goes beyond basic consumption tracking by integrating **executive-level KPIs, geographic state analysis, renewable transition monitoring, deep-dive data exploration, and drill-through state reports** to support data-driven energy planning and sustainability decisions.
 
 
-
 ## 🎯 Business Objective
 
 India’s rapidly expanding energy sector generates massive datasets, making it difficult to extract actionable insights related to:
@@ -35,14 +34,11 @@ India’s rapidly expanding energy sector generates massive datasets, making it 
 * **Data Modeling** – Star schema with fact and dimension tables (Date, State, Category, Measures)
 
 
----
-
 ## 📊 Data Source
 
 **Kaggle – India Monthly Electricity Consumption (2019–2025)**
 Dataset: India Monthly Electricity Consumption (2019–2025) (https://www.kaggle.com/datasets/rhtsingh/india-monthly-electricity-consumption-20192025)
 
----
 
 ## 🧩 Dashboard Structure & Pages
 
@@ -60,7 +56,6 @@ Key features:
 
 Purpose: Quick understanding of national energy performance and transition progress.
 
----
 
 ### 2️⃣ Geographic State Analysis
 
@@ -76,7 +71,6 @@ Key features:
 
 Purpose: Identify leading and lagging states in generation, capacity, and sustainability.
 
----
 
 ### 3️⃣ Renewable Energy Tracker
 
@@ -92,7 +86,6 @@ Key features:
 
 Purpose: Monitor clean energy growth and renewable transition effectiveness.
 
----
 
 ### 4️⃣ Comprehensive Data Explorer
 
@@ -108,7 +101,6 @@ Key features:
 
 Purpose: Deep-dive analytics for analysts and domain users.
 
----
 
 ### 5️⃣ State Detail Drill-Through
 
@@ -124,7 +116,6 @@ Key features:
 
 Purpose: Micro-level evaluation of any Indian state or union territory.
 
----
 
 ## ✨ Key Features & Highlights
 
@@ -140,7 +131,6 @@ Purpose: Micro-level evaluation of any Indian state or union territory.
 * Executive-friendly UI with analytical depth
 * Fully interactive slicers and cross-filtering
 
----
 
 ## 📈 Business Impact & Insights
 
@@ -150,7 +140,6 @@ Purpose: Micro-level evaluation of any Indian state or union territory.
 * **Policy Support:** Enables evidence-based decisions for clean energy investments.
 * **Operational Intelligence:** Supports monthly and yearly trend monitoring.
 
----
 
 ## 🚀 Future Enhancements
 
@@ -160,8 +149,25 @@ Purpose: Micro-level evaluation of any Indian state or union territory.
 * State-level renewable target tracking
 * CO₂ intensity benchmarking
 
----
 
 **6. Screenshot:**
+1. Executive Overview:
 
-![Dashboard Screenshot](https://github.com/Janhavilele/Energy-Consumption-Dashboard/blob/main/Energy%20Consumption%20%26%20Sustainability%20Dashboard.PNG)
+![Dashboard Screenshot]()
+
+2. Geographic State Analysis:
+
+![Dashboard Screenshot]()
+
+3. Renewable Energy Sector:
+
+![Dashboard Screenshot]()
+
+4. Data Explorer:
+
+![Dashboard Screenshot]()
+
+5. State Details:
+
+![Dashboard Screenshot]()
+
