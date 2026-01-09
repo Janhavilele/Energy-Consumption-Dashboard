@@ -1,121 +1,166 @@
 # Energy-Consumption-Dashboard
-**1. Project Title :** _Electricity Consumption & Sustainability Dashboard_
+**1. Project Title :** _Electricity Consumption & Sustainability Dashboard
 
-An interactive Power BI dashboard designed to analyze India’s electricity consumption trends, renewable energy share, carbon emissions, and forecast future demand using dynamic filters and DAX-powered KPIs.
+The **Electricity Consumption & Sustainability Analytics Dashboard** is an advanced, multi-page Power BI solution designed to analyze India’s electricity ecosystem from 2019 to 2025. It delivers deep insights into **power generation, installed capacity, renewable energy transition, and carbon emissions** across Indian states and union territories.
 
-
-**2. Purpose :**
-
-The Energy Insights Dashboard provides a clear, visual understanding of monthly and yearly electricity consumption patterns across India. It helps identify renewable vs. non-renewable trends, carbon emissions, peak load months, and future consumption forecasts to support sustainable energy planning and decision-making.
+This dashboard goes beyond basic consumption tracking by integrating **executive-level KPIs, geographic state analysis, renewable transition monitoring, deep-dive data exploration, and drill-through state reports** to support data-driven energy planning and sustainability decisions.
 
 
-**3. Tech Stack:**
 
-The dashboard was built using the following tools and technologies:
-- Power BI Desktop – Core platform for visualization
-- Power Query – Data cleaning, transformation & shaping
-- DAX (Data Analysis Expressions) – All KPIs, calculations & forecasting logic
-- Data Modeling – Relationships between Date, Variable, Units & Consumption measures
-- File Formats – .pbix for the report, .png for dashboard previews
+## 🎯 Business Objective
 
+India’s rapidly expanding energy sector generates massive datasets, making it difficult to extract actionable insights related to:
 
-**4. Data Source:**
+* National and state-wise electricity generation
+* Renewable vs fossil fuel dependency
+* Emission contribution patterns
+* Capacity expansion trends
+* Long-term sustainability progress
 
-Kaggle – India Monthly Electricity Consumption (2019–2025) (https://www.kaggle.com/datasets/rhtsingh/india-monthly-electricity-consumption-20192025)
+### This dashboard aims to:
 
-
-**Key Columns:**
-
-Country – Country name (India)
-
-State – Indian state/union territory
-
-State type – State / Union territory
-
-Date – Month and year (DD-MM-YYYY)
-
-Category – Data category (e.g., Capacity)
-
-Subcategory – Aggregate fuel / Fuel
-
-Variable – Type of energy source (Coal, Gas, Hydro, Solar, Renewables, etc.)
-
-Unit – Measurement unit (MW)
-
-Value – Capacity value in MW
-
-YoY absolute change – Year-on-year absolute capacity change
-
-YoY % change – Year-on-year percentage change
+* Centralize national and state-level electricity analytics
+* Track renewable energy adoption and clean energy growth
+* Identify high-emission and high-generation regions
+* Enable executive and operational users to explore trends interactively
+* Support sustainable energy planning and policy decisions
 
 
-**5. Features:**
 
-**Business Problem:**
+## 🛠️ Tech Stack
 
-India’s energy sector is rapidly growing, but insights on consumption patterns, renewable share, and carbon emissions are difficult to analyze directly from raw data.
+* **Power BI Desktop** – Dashboard development & visualization
+* **Power Query** – Data cleaning, transformation & validation
+* **DAX (Data Analysis Expressions)** – KPIs, time intelligence, YoY calculations & performance measures
+* **Data Modeling** – Star schema with fact and dimension tables (Date, State, Category, Measures)
 
-**Key questions include:**
-1) When does consumption peak?
-2) How fast are renewables growing?
-3) What states or months contribute more to emissions?
-4) How will energy demand grow in upcoming years?
 
-**Goal of the Dashboard:**
+---
 
-To build a single-page interactive tool that:
-- Tracks national energy consumption & emissions
-- Identifies renewable contribution trends
-- Highlights peak energy demand periods
-- Forecasts next-year electricity consumption
-- Supports sustainable planning & policy decisions
+## 📊 Data Source
 
-**Walkthrough of Key Visuals:**
+**Kaggle – India Monthly Electricity Consumption (2019–2025)**
+Dataset: India Monthly Electricity Consumption (2019–2025) (https://www.kaggle.com/datasets/rhtsingh/india-monthly-electricity-consumption-20192025)
 
-**i) KPI Cards (Top Left)**
-- Total Energy Consumption
-- Peak Load Month
-- Total CO2 Emissions (ktCO2)
-- Renewable Share %
-- MoM Change %
+---
 
-**ii) Forecast of Total Consumption (2025–2026):**
-- Line + forecast visual showing expected demand for next year using DAX measure + built in forecasting model.
+## 🧩 Dashboard Structure & Pages
 
-**iii) Total Consumption by Month:**
-- Shows seasonal consumption patterns and identifies peak vs. low-demand months.
+### 1️⃣ Executive Overview
 
-**iv) Total Consumption by Variable (Bar Chart):**
-Comparison of categories like:
-- Total Generation
-- Wind & Solar
-- Total Emissions
-- Wind
-- Solar
-Helps understand energy mix composition.
+High-level national snapshot for leadership and stakeholders.
 
-**v) Total Renewables by Year (Area Chart):**
-- Tracks year-wise renewable energy growth and sustainability progress.
+Key features:
 
-**vi) Total Consumption by State:**
-- Highlights the top 5 Indian states with the highest electricity consumption, enabling quick comparison of regional energy demand.
+* Total Capacity, Total Generation, Total Emissions, Renewable %
+* Electricity generation trend over time
+* Energy mix evolution (fossil vs clean sources)
+* Top states by electricity generation
+* Dynamic year filtering
 
-**vii) Slicers for Interactivity**
-Users can filter by:
-- State
-- Energy Variable
-- Unit
-- Year
-- Month
+Purpose: Quick understanding of national energy performance and transition progress.
 
-**Business Impact & Insights :**
+---
 
-1. Strategic Energy Planning: Identifies consumption peaks to optimize grid load and infrastructure planning.
-2. Sustainability Tracking: Helps monitor renewable energy growth and CO2 emission reductions.
-3. Policy Support: Enables data-driven decisions on energy diversification and environmental impact.
-4. Operational Efficiency: Organizations can track monthly usage patterns and optimize energy usage.
-5. Forecasting Readiness: Predictive insights help anticipate demand fluctuations for upcoming years.
+### 2️⃣ Geographic State Analysis
 
+State-wise comparison and performance benchmarking.
+
+Key features:
+
+* Interactive state performance matrix
+* Renewable share & emissions by state
+* Top states by installed capacity
+* State vs union territory comparison
+* Multi-year filtering
+
+Purpose: Identify leading and lagging states in generation, capacity, and sustainability.
+
+---
+
+### 3️⃣ Renewable Energy Tracker
+
+Focused analysis of India’s renewable journey.
+
+Key features:
+
+* Solar, Wind & Hydro KPIs
+* Renewable energy mix distribution
+* Year-wise renewable capacity additions
+* Renewable generation trends
+* National renewable contribution gauge
+
+Purpose: Monitor clean energy growth and renewable transition effectiveness.
+
+---
+
+### 4️⃣ Comprehensive Data Explorer
+
+Advanced analytical workspace for detailed investigation.
+
+Key features:
+
+* Large interactive data matrix
+* Year-over-year change tracking
+* Variable-wise trend analysis
+* Generation vs emissions scatter analysis
+* Multi-slicer exploration (state, year, category, variable, state type)
+
+Purpose: Deep-dive analytics for analysts and domain users.
+
+---
+
+### 5️⃣ State Detail Drill-Through
+
+Dynamic individual state performance reports.
+
+Key features:
+
+* Auto-filtered state dashboards
+* State-level KPIs
+* Trend analysis across years
+* Monthly and category breakdowns
+* Capacity vs generation comparisons
+
+Purpose: Micro-level evaluation of any Indian state or union territory.
+
+---
+
+## ✨ Key Features & Highlights
+
+* End-to-end data cleaning and validation in Power Query
+* Optimized data model with relationships across calendar, state and category dimensions
+* Advanced DAX measures for:
+
+  * YoY growth
+  * Renewable share
+  * Emissions aggregation
+  * Capacity & generation KPIs
+* Drill-through navigation between summary and detailed views
+* Executive-friendly UI with analytical depth
+* Fully interactive slicers and cross-filtering
+
+---
+
+## 📈 Business Impact & Insights
+
+* **Strategic Planning:** Helps identify demand growth and high-generation regions.
+* **Sustainability Monitoring:** Tracks renewable adoption and fossil fuel dependency.
+* **Emission Analysis:** Highlights emission-intensive states and energy sources.
+* **Policy Support:** Enables evidence-based decisions for clean energy investments.
+* **Operational Intelligence:** Supports monthly and yearly trend monitoring.
+
+---
+
+## 🚀 Future Enhancements
+
+* Integration of real-time government energy data
+* Demand forecasting using Python or AutoML
+* Per-capita consumption metrics
+* State-level renewable target tracking
+* CO₂ intensity benchmarking
+
+---
 
 **6. Screenshot:**
 
